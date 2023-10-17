@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: "Arial", FontAwesome, Verdana, serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://image.urlaubspiraten.de/640/image/upload/v1603289115/mediavault_images/v7nuzswurwkkuxg8y51v.jpg');
+  background-size: cover;
+  background-attachment: fixed; /* Fix the background to prevent scrolling */
+
+}
+
+h1 {
+  margin-bottom: 35px;
+  border-bottom: 5px solid lightgreen;
+  color: white;
+  padding-bottom: 8px;
+}
+
+form {
+  width: 300px;
+  margin: 25vh auto;
+  text-align: center;
+  padding: 50px;
+}
+
+input {
+  display: block;
+  margin-bottom: 25px;
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+  padding: 5px 0 5px 3px;
+}
+
+input[type="email"],
+input[type="password"] {
+  border-bottom: 2px solid lightgreen;
+}
+
+input[type="submit"] {
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  font-weight: bold;
+  font-family: "Arial", FontAwesome, Verdana, serif;
+  color: white;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: 2px solid lightgreen;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    scale: 1.03;
+    background-color: rgba(255, 255, 255, 0.192);
+    color: lightgreen;
+}
+
+input[type="submit"]:active {
+    scale: 0.97;
+}
